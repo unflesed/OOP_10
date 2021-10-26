@@ -10,8 +10,6 @@ public class MyClass <T>{
     }
 }
 class Main{
-    private static Object Integer;
-
     public static void main(String[] args) {
         MyClass<Integer> st = new MyClass<Integer>(1);
         st.show();
