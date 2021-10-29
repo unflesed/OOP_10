@@ -24,7 +24,7 @@ public class MyList<T> {
             }
         }
     }
-    int size(T[] array){
+    int size(){
         return array.length;
     }
     public T[] getArray() {
@@ -46,7 +46,7 @@ class Main{
         Integer[] arr = {1,2,3};
         MyList<Integer> myList = new MyList<>(arr);
         System.out.println("Элемент 1 = " + myList.elemIndex(1));
-        System.out.println("Размер массива: " + myList.size(arr));
+        System.out.println("Размер массива: " + myList.size());
         myList.add(4);
         System.out.println(myList);
         }
